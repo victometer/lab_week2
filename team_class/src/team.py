@@ -14,8 +14,10 @@ class Team():
                 return True 
         return False
 
-    def play_game(self):
-        if True:
-           points += 3
-        return points 
+    def play_game(self, winning_points):
+        if winning_points == True:
+            self.points += 3
+        else:
+            False
+        # return points
     
